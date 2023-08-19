@@ -32,13 +32,15 @@ dependencies:
     sdk: flutter
   flutter_bloc: ^8.0.3
 
-  mockito: ^5.4.2
+
 
 dev_dependencies:
+  bloc_test: ^9.1.4
   flutter_test:
     sdk: flutter
-
+  mockito: ^5.4.2
   solid_lints: ^0.0.18
+
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

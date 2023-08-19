@@ -11,17 +11,16 @@ abstract class BackgroundColorState {
 }
 
 /// Initial state for the background color, set to white.
-class BackgroundColorInitial extends BackgroundColorState {
-
-  /// initial background color white.
-  const BackgroundColorInitial() : super(Colors.white);
+class BackgroundColorStateInitial extends BackgroundColorState {
+  /// initial background color .
+  const BackgroundColorStateInitial() : super(initialBackgroundColor);
 }
 
 /// State representing a background color change.
-class BackgroundColorChange extends BackgroundColorState {
+class BackgroundColorStateChange extends BackgroundColorState {
   /// The new background color.
   final Color newColor;
 
   /// Create a new background color change state.
-  const BackgroundColorChange(this.newColor) : super(newColor);
+  const BackgroundColorStateChange(this.newColor) : super(newColor);
 }
